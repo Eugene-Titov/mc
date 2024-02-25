@@ -5,7 +5,7 @@
 #include "pass.h"
 #include <string>
 
-// pull request test
+// remove old comment
 
 int main()
 {
@@ -15,7 +15,6 @@ int main()
 	std::cout << "-------------------------------------------------------" << std::endl;
 	std::string login, pass;
 	std::cout << "type login, pass: " << std::endl;
-//	std::cin >> login;
 	std::cin >> pass;
 	login = get_login();
 	
